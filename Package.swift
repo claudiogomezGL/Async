@@ -1,3 +1,4 @@
+// swift-tools-version:5.0
 //
 //  Async.swift
 //
@@ -27,5 +28,24 @@
 import PackageDescription
 
 let package = Package(
-    name: "Async"
+    name: "Async",
+    platforms: [
+        .iOS(.v8),
+        .macOS(.v10_10),
+        .tvOS(.v10),
+        .watchOS(.v2)
+    ],
+    products: [
+        .library(
+            name: "Async",
+            targets: ["Async"]
+        )
+    ],
+    targets: [
+        .target(
+            name: "Async",
+            path: "Sources"
+        )
+    ],
+    swiftLanguageVersions: [.v5]
 )

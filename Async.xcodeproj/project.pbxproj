@@ -179,7 +179,7 @@
 						LastSwiftMigration = 0900;
 					};
 					OBJ_26 = {
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1110;
 					};
 				};
 			};
@@ -237,6 +237,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				SWIFT_VERSION = 5.0;
 				TVOS_DEPLOYMENT_TARGET = 11.0;
 			};
 			name = Debug;
@@ -247,6 +248,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				SWIFT_VERSION = 5.0;
 				TVOS_DEPLOYMENT_TARGET = 11.0;
 			};
 			name = Release;
@@ -255,6 +257,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1F99522A1EA0FF2F0095B0F1 /* AsyncTests-Debug.xcconfig */;
 			buildSettings = {
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -262,6 +265,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1F99522B1EA0FF2F0095B0F1 /* AsyncTests-Release.xcconfig */;
 			buildSettings = {
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
