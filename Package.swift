@@ -45,5 +45,6 @@ let package = Package(
             name: "Asycn",
             path: "Source"
         )
-    ]
+    ],
+    swiftLanguageVersions: [.v5]
 )
