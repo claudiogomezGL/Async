@@ -44,7 +44,7 @@ let package = Package(
     targets: [
         .target(
             name: "Async",
-            path: "Source"
+            path: "Sources"
         )
     ],
     swiftLanguageVersions: [.v5]
