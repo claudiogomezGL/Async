@@ -43,7 +43,7 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "Asycn",
+            name: "Async",
             path: "Source"
         )
     ],
